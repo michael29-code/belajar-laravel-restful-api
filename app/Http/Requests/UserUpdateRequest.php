@@ -34,4 +34,6 @@ class UserUpdateRequest extends FormRequest
             "errors" => $validator->getMessageBag()
         ], 400));
     }
+
+    
 }
